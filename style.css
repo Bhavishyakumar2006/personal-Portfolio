@@ -60,25 +60,96 @@ nav ul li a {
 }
 
 /* --------About Me-section------- */
-#about-section{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 30px 70px;
-    color: #ababab;
+#about-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 70px;
+  color: #ababab;
 }
-#image-div{
-    flex-basis: 30%;
+#image-div {
+  flex-basis: 30%;
 }
-#image-div img{
-    width: 100%;
-    border-radius: 15px;
+#image-div img {
+  width: 100%;
+  border-radius: 15px;
 }
-#aboutMe-heading{
-    font-size: 50px;
-    font-weight: 600;
-    color: #fff;
+#aboutMe-heading {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
 }
-#about-text{
-    flex-basis: 67%;
+#about-text {
+  flex-basis: 67%;
+}
+
+/* ------skills, education, hobbies----- */
+/* heading part */
+#tabs {
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 15vw;
+  padding: 5px 0;
+  margin-top: 5px;
+  cursor: pointer;
+}
+/* content part */
+#skill-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 5vh 14.5vw;
+  /* row-gap: 5vw;
+  column-gap: 5vh; */
+  gap: 5vw 5vh;
+  flex-wrap: wrap;
+  /* display: none; */
+}
+.skill {
+  width: 12vw;
+  height: 22vh;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+}
+#react-js {
+  background-image: url(images/react\,js\ icon.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#javascript {
+  background-image: url(images/JS\ icon.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#typescript {
+  background-image: url(images/ts\ icon.png);
+  background-size: cover;
+  background-position: center;
+}
+#tailwind {
+  background-image: url(images/Tailwind\ icon.webp);
+  background-size: cover;
+  background-position: center;
+}
+#css {
+  background-image: url(images/css.png);
+  background-size: cover;
+  background-position: center;
+}
+#html {
+  background-image: url(images/HTML\ icon.png);
+  background-size: cover;
+  background-position: center;
+}
+#git-github {
+  background-image: url(images/Git\ &\ Github\ icon.png);
+  background-size: cover;
+  background-position: center;
+}
+#ms-office {
+  background-image: url(images/ms\ office\ icon.jpg);
+  background-size: cover;
+  background-position: center;
 }
