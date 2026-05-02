@@ -97,13 +97,15 @@ nav ul li a {
   cursor: pointer;
 }
 /* skill content part */
+#skill-container{
+  display: block;
+}
 #skill-content {
   display: flex;
   justify-content: space-around;
   padding: 5vh 14.5vw;
   gap: 5vw 5vh;
   flex-wrap: wrap;
-  display: none;
 }
 .skill {
   width: 12vw;
@@ -154,6 +156,9 @@ nav ul li a {
 }
 
 /* Education part */
+#education-content{
+  display: none;
+}
 #education-details {
   padding: 2vh 0 2vh 25vw;
 }
