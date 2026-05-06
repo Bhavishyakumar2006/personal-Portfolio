@@ -97,8 +97,8 @@ nav ul li a {
   cursor: pointer;
 }
 /* skill content part */
-#skill-container{
-  display: block ;
+#skill-container {
+  display: block;
 }
 #skill-content {
   display: flex;
@@ -156,7 +156,7 @@ nav ul li a {
 }
 
 /* Education part */
-#education-content{
+#education-content {
   display: none;
 }
 #education-details {
@@ -200,7 +200,7 @@ nav ul li a {
   display: inline;
   color: #ababab;
 }
-#school12th-duration span{
+#school12th-duration span {
   font-weight: 600;
   color: #fff;
 }
@@ -209,7 +209,7 @@ nav ul li a {
   margin-left: 50px;
   color: #ababab;
 }
-#school12th-grade span{
+#school12th-grade span {
   font-weight: 600;
   color: #fff;
 }
@@ -226,4 +226,34 @@ nav ul li a {
 #school10th-standard {
   color: #ababab;
   margin-top: 2px;
+}
+/* --------Hobby part-------  */
+#hobby-container{
+  display: none;
+}
+#hobby-content {
+  display: flex;
+  padding: 5vh 14.5vw;
+  justify-content: space-around;
+}
+.hobby {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  font-size: 20px;
+}
+.hobby p {
+  margin-top: 10px;
+}
+.hobby div{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 220px;
+  height: 135px;
+  margin: 19px auto;
+}
+.hobby:hover {
+  border-color: orangered;
 }
