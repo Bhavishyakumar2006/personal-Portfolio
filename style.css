@@ -48,7 +48,7 @@ nav ul li a {
   font-weight: 600;
 }
 .name {
-  color: orange;
+  color: rgb(228, 152, 13);
   font-size: 50px;
 }
 .role {
@@ -98,7 +98,7 @@ nav ul li a {
 }
 /* skill content part */
 #skill-container{
-  display: block;
+  display: block ;
 }
 #skill-content {
   display: flex;
