@@ -276,12 +276,12 @@ nav ul li a {
   font-size: 50px;
   font-weight: 600;
   color: #fff;
-  margin: 3vh 0 0 130px;
+  margin: 3vh 0 0 140px;
 }
 #projects {
   display: flex;
   justify-content: center;
-  padding: 5vh 0;
+  padding: 4.5svh 0;
   gap: 8vh;
   flex-wrap: wrap;
 }
@@ -290,4 +290,11 @@ nav ul li a {
   height: 55vh;
   border: 1px solid white;
   border-radius: 10px;
+}
+.project-box div {
+  width: 85%;
+  height: calc(50% - 22px);
+  margin: 22px auto;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid white;
 }
